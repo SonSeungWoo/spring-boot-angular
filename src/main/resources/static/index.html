@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Springular</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body ng-app="testApp">
+
+
+<div>
+    <h1>The Index</h1>
+    <ul>
+        <li>
+            <a ng-href="#!/person"> person</a>
+        </li>
+        <li>
+            <a ng-href="#!/persons"> persons</a>
+        </li>
+    </ul>
+
+
+
+</div>
+<div ng-view=""></div>
+
+
+
+
+<script src="libs/angular.js"></script>
+<script src="libs/angular-route.js"></script>
+
+
+<script src="js/config.js"></script>
+<script src="js/controllers/main.js"></script>
+<script src="js/controllers/person.js"></script>
+<script src="js/controllers/persons.js"></script>
+
+
+</body>
+</html>
