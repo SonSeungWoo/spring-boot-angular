@@ -19,9 +19,3 @@ function Scope() {
 
     return scope;
 }
-
-$(function () {
-    Scope().$apply(function () {
-        Scope().start();
-    });
-});
