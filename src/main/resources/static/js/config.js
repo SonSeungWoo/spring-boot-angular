@@ -4,11 +4,11 @@ angular.module('testApp' , ["ngRoute"])
     .config(function($routeProvider){
 
         $routeProvider
-            .when('/' , {
+            /*.when('/' , {
                 templateUrl : "views/main.html",
                 controller : 'MainController',
                 controllerAs : 'main'
-            })
+            })*/
             .when('/person' , {
                 templateUrl : "views/person.html",
                 controller : 'PersonController',

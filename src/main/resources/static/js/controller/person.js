@@ -1,6 +1,6 @@
 'use strict'
 angular.module('testApp')
-    .controller('PersonController' , ['$scope', '$http', function($scope, $http){
+    .controller('PersonController' , ['$scope','$http', function($scope, $http){
         _refreshEmployeeData();
         function _refreshEmployeeData() {
             $http({
